@@ -37,6 +37,29 @@
 [1️⃣ ReciPICK Repository](https://github.com/SHDS-ReciPICK/recipick) <br/><br/>
 [2️⃣ SOL PICK 연동을 위한 ReciPICK API 추가 개발한 Repository](https://github.com/SHDS-ReciPICK/recipick-v2)
 
+### 🏗️ 디렉토리 구조
+```
+ReciPICK/
+├── src/main/java/
+│   ├── kr/co/recipick/
+│   │   ├── cart/           # 장바구니 관리
+│   │   ├── checkout/       # 주문/결제
+│   │   ├── community/      # 커뮤니티
+│   │   ├── dashboard/      # 관리자 페이지
+│   │   ├── home/          # 메인 페이지
+│   │   ├── item/          # 상품 상세
+│   │   ├── member/        # 회원 관리
+│   │   └── product/       # 상품 목록
+│   ├── config/            # 설정 파일
+│   └── util/              # 유틸리티
+├── src/main/resources/
+│   └── kr/co/recipick/    # MyBatis Mapper
+├── src/main/webapp/
+│   ├── WEB-INF/views/     # JSP 뷰
+│   ├── css/               # 스타일시트
+│   ├── js/                # JavaScript
+│   └── libs/              # 외부 라이브러리
+```
 ---
 
 ## ✨ 주요 기능
@@ -49,27 +72,27 @@
 
   <table>
     <tr>
-      <td align="center" width="320"><b>로그인 페이지</b></td>
-      <td align="center" width="320"><b>주문/배송 조회 페이지</b></td>
+      <td align="center" width="450"><b>로그인 페이지</b></td>
+      <td align="center" width="450"><b>주문/배송 조회 페이지</b></td>
     </tr>
     <tr>
-      <td align="center" height="450">
-        <img width="250" alt="로그인 페이지" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="로그인 페이지" src="https://github.com/user-attachments/assets/c83c1fe4-a97b-427a-8a63-528e69d53669" />
       </td>
-      <td align="center" height="450">
-        <img width="250" alt="주문/배송 조회 페이지" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="주문/배송 조회 페이지" src="https://github.com/user-attachments/assets/2ac5aecf-7997-4183-8c5e-b3a6a9e62b92" />
       </td>
     </tr>
     <tr>
-      <td align="center" width="320"><b>좋아요 페이지</b></td>
-      <td align="center" width="320"><b>리뷰 관리 페이지</b></td>
+      <td align="center" width="450"><b>좋아요 페이지</b></td>
+      <td align="center" width="450"><b>리뷰 관리 페이지</b></td>
     </tr>
     <tr>
-      <td align="center" height="450">
-        <img width="250" alt="좋아요 페이지" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="좋아요 페이지" src="https://github.com/user-attachments/assets/915bdc2f-4118-402a-8c29-af0accf96c3d" />
       </td>
-      <td align="center" height="450">
-        <img width="250" alt="리뷰 관리 페이지" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="리뷰 관리 페이지" src="https://github.com/user-attachments/assets/94f791d6-32ff-43bd-ad4d-aa6c71245249" />
       </td>
     </tr>
   </table>
@@ -84,19 +107,19 @@
 
   <table>
     <tr>
-      <td align="center" width="320"><b>홈 페이지</b></td>
-      <td align="center" width="320"><b>상품 목록</b></td>
-      <td align="center" width="320"><b>검색 결과, 필터, 정렬 조건에 따른 상품 목록 조회</b></td>
+      <td align="center" width="500"><b>홈 페이지</b></td>
+      <td align="center" width="500"><b>상품 목록</b></td>
+      <td align="center" width="500"><b>검색 결과, 필터, 정렬 조건에 따른 상품 목록 조회</b></td>
     </tr>
     <tr>
-      <td align="center" height="450">
-        <img width="250" alt="홈 페이지" src="" />
+      <td align="center" height="250">
+        <img width="500" alt="홈 페이지" src="https://github.com/user-attachments/assets/a83bbf39-3ff3-4725-a252-13e969156c1f" />
       </td>
-      <td align="center" height="450">
-        <img width="250" alt="상품 목록" src="" />
+      <td align="center" height="250">
+        <img width="500" alt="상품 목록" src="https://github.com/user-attachments/assets/07ff5aa0-017f-46bf-8e84-2447223cb7f9" />
       </td>
-      <td align="center" height="450">
-        <img width="250" alt="동적 상품 목록 렌더링" src="" />
+      <td align="center" height="250">
+        <img width="500" alt="동적 상품 목록 렌더링" src="https://github.com/user-attachments/assets/dd905836-2171-406c-a550-b1b3a877e3c8" />
       </td>
     </tr>
   </table>
@@ -109,27 +132,27 @@
   
   <table>
     <tr>
-      <td align="center" width="320"><b>레시피 상세 페이지</b></td>
-      <td align="center" width="320"><b>장바구니 페이지</b></td>
+      <td align="center" width="450"><b>레시피 상세 페이지</b></td>
+      <td align="center" width="450"><b>장바구니 페이지</b></td>
     </tr>
     <tr>
-      <td align="center" height="450">
-        <img width="250" alt="레시피 상세 페이지" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="레시피 상세 페이지" src="https://github.com/user-attachments/assets/262bf84e-6dab-45a8-a6d3-0e1d66defa9b" />
       </td>
-      <td align="center" height="450">
-        <img width="250" alt="장바구니 페이지" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="장바구니 페이지" src="https://github.com/user-attachments/assets/6f1100a5-1f74-4847-bed5-d4a9a44158a5" />
       </td>
     </tr>
     <tr>
-      <td align="center" width="320"><b>레시피 담을 시 식재료 수량 조절</b></td>
-      <td align="center" width="320"><b>아임포트 결제 시스템 연동</b></td>
+      <td align="center" width="250"><b>레시피 담을 시 식재료 수량 조절</b></td>
+      <td align="center" width="250"><b>아임포트 결제 시스템 연동</b></td>
     </tr>
     <tr>
-      <td align="center" height="450">
-        <img width="250" alt="레시피 담을 시 식재료 수량 조절" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="레시피 담을 시 식재료 수량 조절" src="https://github.com/user-attachments/assets/8ab84437-adff-471e-a0c1-31863deaec1c" />
       </td>
-      <td align="center" height="450">
-        <img width="250" alt="아임포트 결제 시스템 연동" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="아임포트 결제 시스템 연동" src="https://github.com/user-attachments/assets/db91b819-23a0-4e3f-9c88-6c356f1a84ab" />
       </td>
     </tr>
   </table>
@@ -141,15 +164,15 @@
 
   <table>
     <tr>
-      <td align="center" width="320"><b>게시판 목록(나만의 레시피)</b></td>
-      <td align="center" width="320"><b>게시글 상세 페이지</b></td>
+      <td align="center" width="600"><b>게시판 목록(나만의 레시피)</b></td>
+      <td align="center" width="600"><b>게시글 상세 페이지</b></td>
     </tr>
     <tr>
-      <td align="center" height="450">
-        <img width="250" alt="게시판 목록(나만의 레시피)" src="" />
+      <td align="center" height="300">
+        <img width="600" alt="게시판 목록(나만의 레시피)" src="https://github.com/user-attachments/assets/eb41b608-1b9f-4834-bfa4-bb307253dde5" />
       </td>
-      <td align="center" height="450">
-        <img width="250" alt="게시글 상세 페이지" src="" />
+      <td align="center" height="30">
+        <img width="600" alt="게시글 상세 페이지" src="https://github.com/user-attachments/assets/3559067a-dd28-4b10-9be1-4c7d86a9d7b8" />
       </td>
     </tr>
   </table>
@@ -161,27 +184,27 @@
 
   <table>
     <tr>
-      <td align="center" width="320"><b>새 레시피 추가 페이지</b></td>
-      <td align="center" width="320"><b>새 식재료 추가 페이지</b></td>
+      <td align="center" width="450"><b>새 레시피 추가 페이지</b></td>
+      <td align="center" width="450"><b>새 식재료 추가 페이지</b></td>
     </tr>
     <tr>
-      <td align="center" height="450">
-        <img width="250" alt="새 레시피 추가 페이지" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="새 레시피 추가 페이지" src="https://github.com/user-attachments/assets/3864428f-df41-417b-a71b-f9cd22ecb617" />
       </td>
-      <td align="center" height="450">
-        <img width="250" alt="새 식재료 추가 페이지" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="새 식재료 추가 페이지" src="https://github.com/user-attachments/assets/b19fb625-26d5-4ddf-8ff3-84e9e8d9f97c" />
       </td>
     </tr>
     <tr>
-      <td align="center" width="320"><b>레시피 삭제 페이지</b></td>
-      <td align="center" width="320"><b>식재료 재고 관리 페이지</b></td>
+      <td align="center" width="450"><b>레시피 삭제 페이지</b></td>
+      <td align="center" width="450"><b>식재료 재고 관리 페이지</b></td>
     </tr>
     <tr>
-      <td align="center" height="450">
-        <img width="250" alt="레시피 삭제 페이지" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="레시피 삭제 페이지" src="https://github.com/user-attachments/assets/950a4f23-d42f-4f76-b178-c3e0ce2269ba" />
       </td>
-      <td align="center" height="450">
-        <img width="250" alt="식재료 재고 관리 페이지" src="" />
+      <td align="center" height="250">
+        <img width="450" alt="식재료 재고 관리 페이지" src="https://github.com/user-attachments/assets/d674456a-ad2c-4c12-8e96-76067ea149b3" />
       </td>
     </tr>
   </table>
@@ -191,19 +214,38 @@
 ## 🛠 기술 스택
 
 ### 💻 Frontend
-
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JSP](https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=java&logoColor=white)
 
 ### 🖥 Backend
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-271E1A?style=for-the-badge&logo=mybatis&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Apache Tomcat](https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)
 
-
-### 🗃 DB
-
+### 🗃 Database
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![HikariCP](https://img.shields.io/badge/HikariCP-007DB8?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ### 🤝 Collaboration
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
+
+## 📚 Additional Libraries
+![Lombok](https://img.shields.io/badge/Lombok-BC4521?style=for-the-badge&logo=lombok&logoColor=white)
+![JSTL](https://img.shields.io/badge/JSTL-007396?style=for-the-badge&logo=java&logoColor=white)
+![Tiny Slider](https://img.shields.io/badge/Tiny_Slider-FF6B6B?style=for-the-badge&logo=javascript&logoColor=white)
+![NoUISlider](https://img.shields.io/badge/NoUISlider-4ECDC4?style=for-the-badge&logo=javascript&logoColor=white)
+![SimpleBar](https://img.shields.io/badge/SimpleBar-45B7D1?style=for-the-badge&logo=javascript&logoColor=white)
 
 ---
-
-## 👨‍👩‍👧‍👦 Team
 
 ## 👨‍👩‍👧‍👦 Team
 
